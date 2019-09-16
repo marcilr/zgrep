@@ -1,0 +1,9 @@
+README
+Created Mon Sep 16 07:49:36 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+zgrep.txt
+  zgrep - search possibly compressed files for a regular expression
