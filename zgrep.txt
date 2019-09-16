@@ -1,0 +1,16 @@
+zgrep.txt
+Created Mon Sep 16 08:12:30 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+zgrep - search possibly compressed files for a regular expression
+
+
+Useful for searching gz files:
+
+# zgrep dnr.alaska.gov * | less
+access_log.gz:69.191.249.217 - - [30/Mar/2019:03:33:01 -0800] "GET /ag/MR/Quarantine352014.pdf HTTP/1.1" 200 432884 0.201 "-" "BLP_bbot/0.1""-" "dnr.alaska.gov" sn="dnr.alaska.gov" rt=0.201 ua="-" us="-" ut="-" ul="-" cs=-
+access_log.gz:69.191.249.207 - - [30/Mar/2019:03:33:02 -0800] "GET /ag/MR/2014LPB.pdf HTTP/1.1" 200 429608 0.000 "-" "BLP_bbot/0.1""-" "dnr.alaska.gov" sn="dnr.alaska.gov" rt=0.000 ua="-" us="-" ut="-" ul="-" cs=-
+access_log.gz:69.191.249.206 - - [30/Mar/2019:03:33:02 -0800] "GET /ag/MR/BeckLakeElodea.pdf HTTP/1.1" 200 394941 0.000 "-" "BLP_bbot/0.1""-" "dnr.alaska.gov" sn="dnr.alaska.gov" rt=0.000 ua="-" us="-" ut="-" ul="-" cs=-
+:q
+#
